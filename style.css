@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Merriweather:wght@700 & display=swap');
+body{
+  background: #7a7a7a;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: boder-box;
+  box-sizing: border-box;
+}
+
+.titulo{
+    padding: 5px;
+    font-size: 50px;
+    font-family: 'Rubik Vinyl', cursive;
+    text-align: center;
+    color: #a3a3a3;
+    background: #525252;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Rubik Spray Paint', cursive;
+    width: 450px;
+    height: 110px;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    border-radius: 3%;
+    margin: 0 auto;
+}
+
+.centered{
+    font-size: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-text-1{
+    font-family: 'Merriweather', serif;
+    color: white;
+    padding: 35px 0px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.video-img-1{
+    width: 400px;
+    height: 200px;
+    background-image: url(video-1.png);
+    background-size: cover;
+    border-radius: 2%;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 600px) {
+.titulo{
+    padding: 5px;
+    font-size: 50px;
+    font-family: 'Rubik Vinyl', cursive;
+    text-align: center;
+    color: #a3a3a3;
+    background: #525252;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Rubik Spray Paint', cursive;
+    width: 450px;
+    height: 110px;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    border-radius: 3%;
+    margin: 0 auto;
+}
+
+.centered{
+    font-size: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-text-1{
+    font-family: 'Merriweather', serif;
+    color: white;
+    padding: 35px 0px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.video-img-1{
+    width: 400px;
+    height: 200px;
+    background-image: url(video-1.png);
+    background-size: cover;
+    border-radius: 2%;
+    margin: 0 auto;
+}
+}
